@@ -4,6 +4,10 @@ Repo to test some GIT features.
 
 ## Useful Links
 
+GH Links:
+[Take GitHub to the command line](https://cli.github.com/)  
+[Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)  
+
 GIT Rebase:  
 [When to use ‘Git Rebase’ explained](https://medium.com/@harishlyadav/when-to-use-git-rebase-explained-3c8192cba5c7)  
 [when not to use "git rebase" while working with GIT branches?](https://stackoverflow.com/questions/31406079/when-not-to-use-git-rebase-while-working-with-git-branches)  
