@@ -4,7 +4,7 @@ Repo to test some GIT features.
 
 ## Useful Links
 
-GH Links:
+GH Links:  
 [Take GitHub to the command line](https://cli.github.com/)  
 [Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)  
 
@@ -30,6 +30,20 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
 && sudo apt update \
 && sudo apt install gh -y
+```
+
+## gh Commands
+```
+Authenticate on gh:
+gh auth login
+
+Get help:
+gh --help
+gh repo --help
+gh repo create --help
+
+Create a new repo in GitHub:
+gh repo create git-tests --description "Repo to test some GIT features" --public --clone --add-readme
 ```
 
 ## Useful Commands
