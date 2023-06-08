@@ -16,7 +16,7 @@ GIT Rebase:
 [Rebase Considered Harmful](https://changelog.complete.org/archives/586-rebase-considered-harmful)  
 [The Ultimate Guide to Git Merge and Git Rebase](https://www.google.com/amp/s/www.freecodecamp.org/news/the-ultimate-guide-to-git-merge-and-git-rebase/amp/)  
 
-Videos regarding rebase, squash and other commands:
+Videos regarding rebase, squash and other commands:  
 [Usando Git Direito | Limpando seus Commits!](https://youtu.be/6OokP-NE49k)  
 [How to squash and rebase in git](https://youtu.be/AWayLpQHJeE)  
 [Modifying git History (3/3) - Pulling a shared branch with rebase to catch up](https://youtu.be/-H2U3kJ_urw)  
