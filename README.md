@@ -66,4 +66,7 @@ git diff --staged
 
 Commit some modifications in the file and not others:
 git add -p
+
+Display a graphical view of the commit history considering all branches:
+git log --oneline --graph --all
 ```
