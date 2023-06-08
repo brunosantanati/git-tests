@@ -22,6 +22,16 @@ Videos regarding rebase, squash and other commands:
 [Modifying git History (3/3) - Pulling a shared branch with rebase to catch up](https://youtu.be/-H2U3kJ_urw)  
 [How to edit Git history - fix any mistake](https://www.youtube.com/live/lYZeaQWjqSk?feature=share)  
 
+## GitHub Command Line (gh) Installation in Ubuntu
+```
+type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
+```
+
 ## Useful Commands
 ```
 Squash commits:
