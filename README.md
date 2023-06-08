@@ -69,4 +69,11 @@ git add -p
 
 Display a graphical view of the commit history considering all branches:
 git log --oneline --graph --all
+
+Add untracked file using interactive mode:
+git add -i
+Select the option '4: add untracked'
+Type the numbers of the files you want to add
+When finished type enter
+Type 7 to exit (option '7: quit')
 ```
