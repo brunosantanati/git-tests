@@ -34,6 +34,14 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 
 ## Useful Commands
 ```
+Rebase:
+The example below might be used when the main branch is ahead of your feature branch, so basically you've based your branch on an older commit that is not the HEAD of the main anymore. You are in your own feature branch and you want to make the HEAD of the main the base for the code and re-apply your changes on top of it. We're assuming that there are new commits both in main and in your branch.
+git checkout my-branch
+git rebase main
+if you're finished you can merge all your work back to main:
+git checkout main
+git merge my-branch
+
 Squash commits:
 git rebase -i HEAD~2
 The command above will show the last 2 commits, so supposing you want to join them into only one commit, you can mark the second one with the flag squash in front of it, exit and save. If these 2 commits that became 1 were already in GitHub, you need to use the -f flag (force) to overwrite the remote repo history as below (don't do this if any other person has pulled the code before).
