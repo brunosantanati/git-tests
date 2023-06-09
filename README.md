@@ -75,7 +75,7 @@ git merge my-branch
 
 ##################################################
 
-Delete last commit but preserve the related changes:
+Delete last commit but preserve the related changes in the staging area:
 git reset --soft HEAD~1
 
 Delete last commit but it DOES NOT preserve the related changes (CAUTION: it's not reversable):
