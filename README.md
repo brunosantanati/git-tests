@@ -4,6 +4,10 @@ Repo to test some GIT features.
 
 ## Useful Links
 
+GH Links:  
+[Take GitHub to the command line](https://cli.github.com/)  
+[Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)  
+
 GIT Workflows  
 [Comparing Git Workflows: What You Should Know](https://www.atlassian.com/git/tutorials/comparing-workflows)  
 [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)  
@@ -16,10 +20,6 @@ GIT Bisect:
 [Using Git Bisect](https://youtu.be/P3ZR_s3NFvM)  
 [Git Bisect | How to use Git Bisect | Learn Git](https://youtu.be/z-AkSXDqodc)  
 [Git bisect tutorial. How to find a bad bug commit.](https://youtu.be/D7JJnLFOn4A)  
-
-GH Links:  
-[Take GitHub to the command line](https://cli.github.com/)  
-[Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)  
 
 GIT Rebase:  
 [When to use ‘Git Rebase’ explained](https://medium.com/@harishlyadav/when-to-use-git-rebase-explained-3c8192cba5c7)  
