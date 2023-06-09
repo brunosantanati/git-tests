@@ -90,6 +90,13 @@ git push -f origin main
 
 ##################################################
 
+Unstage a file:
+git reset -- <file>
+OR
+git restore --staged <file>
+
+##################################################
+
 See differences staged:
 git diff --staged
 
