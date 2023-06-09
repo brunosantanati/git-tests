@@ -105,6 +105,11 @@ git diff --staged
 
 ##################################################
 
+Get rid of all local/uncommited changes:
+git reset --hard
+
+##################################################
+
 Commit some modifications in the file and not others:
 git add -p
 After run the command, if we've changed multiple lines of a file we'll be asked:
