@@ -133,7 +133,7 @@ $ git revert 9ec1c14
 ##################################################
 
 Change last commit message (rewrite history):
-git commit -m "Add fake file" --amend
+git commit -m "New message here" --amend
 OR
 git commit --amend
 ```
