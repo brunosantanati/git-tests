@@ -129,4 +129,11 @@ Date:   Fri Jun 9 03:17:05 2023 -0300
 $ git show 9ec1c14
 $ git bisect reset
 $ git revert 9ec1c14
+
+##################################################
+
+Change last commit message (rewrite history):
+git commit -m "Add fake file" --amend
+OR
+git commit --amend
 ```
