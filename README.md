@@ -91,4 +91,30 @@ Select the option '4: add untracked'
 Type the numbers of the files you want to add
 When finished type enter
 Type 7 to exit (option '7: quit')
+
+Find a bad commit, see its content and revert it:
+$ git bisect start
+$ git bisect bad
+$ git bisect good 287d4f
+Bisecting: 2 revisions left to test after this (roughly 1 step)
+[cd2bb5346a4d974d2b6ce08156dc0bca925fb09d] Change color of animation
+$ git bisect good
+Bisecting: 0 revisions left to test after this (roughly 1 step)
+[fd36f59c5c664e82c150317e107773d0ac7df9dc] Change animation colors
+$ git bisect bad
+Bisecting: 0 revisions left to test after this (roughly 0 steps)
+[9ec1c144d2707b46041f4b921edf7cbba8f06bff] Break animation
+$ git bisect bad
+9ec1c144d2707b46041f4b921edf7cbba8f06bff is the first bad commit
+commit 9ec1c144d2707b46041f4b921edf7cbba8f06bff
+Author: Bruno Sant' Ana <bruno.santana.ti@gmail.com>
+Date:   Fri Jun 9 03:17:05 2023 -0300
+
+    Break animation
+
+ fake-project/test-bisect/animation.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git show 9ec1c14
+$ git bisect reset
+$ git revert 9ec1c14
 ```
