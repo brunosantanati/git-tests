@@ -108,9 +108,12 @@ git log --oneline --graph --all
 Add untracked file using interactive mode:
 git add -i
 Select the option '4: add untracked'
-Type the numbers of the files you want to add
-When finished type enter
-Type 7 to exit (option '7: quit')
+Type the numbers of the files you want to add to stage
+When finished press enter
+Select the option '3: revert'
+Type the nunbers of the files you want to remove from stage
+When finished press enter
+Type 7 or q to exit (option '7: quit')
 
 ##################################################
 
