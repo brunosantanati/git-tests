@@ -97,6 +97,9 @@ git diff --staged
 
 Commit some modifications in the file and not others:
 git add -p
+After run the command, if we've changed multiple lines of a file we'll be asked:
+(1/1) Stage this hunk [y,n,q,a,d,s,e,?]?
+We can respond s to split the staging of the changes and choose them separately afterwards.
 
 ##################################################
 
