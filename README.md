@@ -138,4 +138,6 @@ Change last commit message (rewrite history):
 git commit -m "New message here" --amend
 OR
 git commit --amend
+
+##################################################
 ```
