@@ -29,13 +29,15 @@ GIT Rebase:
 [Rebase Considered Harmful](https://changelog.complete.org/archives/586-rebase-considered-harmful)  
 [The Ultimate Guide to Git Merge and Git Rebase](https://www.google.com/amp/s/www.freecodecamp.org/news/the-ultimate-guide-to-git-merge-and-git-rebase/amp/)  
 
-Videos regarding rebase, squash and other commands:  
-[Usando Git Direito | Limpando seus Commits!](https://youtu.be/6OokP-NE49k)  
+Links regarding rebase and squash:  
 [How to squash and rebase in git](https://youtu.be/AWayLpQHJeE)  
 [Modifying git History (3/3) - Pulling a shared branch with rebase to catch up](https://youtu.be/-H2U3kJ_urw)  
 [How to edit Git history - fix any mistake](https://www.youtube.com/live/lYZeaQWjqSk?feature=share)  
 [git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)  
 [Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)  
+
+Links for various different GIT commands:  
+[Usando Git Direito | Limpando seus Commits!](https://youtu.be/6OokP-NE49k)  
 
 ## GitHub Command Line (gh) Installation in Ubuntu
 ```
