@@ -95,6 +95,9 @@ git reset -- <file>
 OR
 git restore --staged <file>
 
+Unstage all files:
+git reset --
+
 ##################################################
 
 See differences staged:
