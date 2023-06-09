@@ -4,6 +4,19 @@ Repo to test some GIT features.
 
 ## Useful Links
 
+GIT Workflows  
+[Comparing Git Workflows: What You Should Know](https://www.atlassian.com/git/tutorials/comparing-workflows)  
+[Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)  
+[Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)  
+[Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)  
+[5 Different Git Workflows](https://medium.com/javarevisited/5-different-git-workflows-50f75d8783a7)  
+[4 branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)  
+
+GIT Bisect:  
+[Using Git Bisect](https://youtu.be/P3ZR_s3NFvM)  
+[Git Bisect | How to use Git Bisect | Learn Git](https://youtu.be/z-AkSXDqodc)  
+[Git bisect tutorial. How to find a bad bug commit.](https://youtu.be/D7JJnLFOn4A)  
+
 GH Links:  
 [Take GitHub to the command line](https://cli.github.com/)  
 [Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)  
@@ -21,6 +34,8 @@ Videos regarding rebase, squash and other commands:
 [How to squash and rebase in git](https://youtu.be/AWayLpQHJeE)  
 [Modifying git History (3/3) - Pulling a shared branch with rebase to catch up](https://youtu.be/-H2U3kJ_urw)  
 [How to edit Git history - fix any mistake](https://www.youtube.com/live/lYZeaQWjqSk?feature=share)  
+[git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)  
+[Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)  
 
 ## GitHub Command Line (gh) Installation in Ubuntu
 ```
