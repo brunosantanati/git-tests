@@ -140,4 +140,7 @@ OR
 git commit --amend
 
 ##################################################
+
+Pull changes but using the rebase strategy during the pull operation
+git pull --rebase origin main
 ```
