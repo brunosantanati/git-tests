@@ -75,6 +75,14 @@ git merge my-branch
 
 ##################################################
 
+Delete last commit but preserve the related changes:
+git reset --soft HEAD~1
+
+Delete last commit but it DOES NOT preserve the related changes (CAUTION: it's not reversable):
+git reset --hard HEAD~1
+
+##################################################
+
 Squash commits:
 git rebase -i HEAD~2
 The command above will show the last 2 commits, so supposing you want to join them into only one commit, you can mark the second one with the flag squash in front of it, exit and save. If these 2 commits that became 1 were already in GitHub, you need to use the -f flag (force) to overwrite the remote repo history as below (don't do this if any other person has pulled the code before).
