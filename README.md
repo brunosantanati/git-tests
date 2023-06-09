@@ -71,19 +71,29 @@ if you're finished you can merge all your work back to main:
 git checkout main
 git merge my-branch
 
+##################################################
+
 Squash commits:
 git rebase -i HEAD~2
 The command above will show the last 2 commits, so supposing you want to join them into only one commit, you can mark the second one with the flag squash in front of it, exit and save. If these 2 commits that became 1 were already in GitHub, you need to use the -f flag (force) to overwrite the remote repo history as below (don't do this if any other person has pulled the code before).
 git push -f origin main
 
+##################################################
+
 See differences staged:
 git diff --staged
+
+##################################################
 
 Commit some modifications in the file and not others:
 git add -p
 
+##################################################
+
 Display a graphical view of the commit history considering all branches:
 git log --oneline --graph --all
+
+##################################################
 
 Add untracked file using interactive mode:
 git add -i
@@ -91,6 +101,8 @@ Select the option '4: add untracked'
 Type the numbers of the files you want to add
 When finished type enter
 Type 7 to exit (option '7: quit')
+
+##################################################
 
 Find a bad commit, see its content and revert it:
 $ git bisect start
