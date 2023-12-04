@@ -36,6 +36,9 @@ Links regarding rebase and squash:
 [git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)  
 [Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)  
 
+Links regargind cherry-pick
+[How To Cherry Pick Git Commits | When & How to use a Git Cherry Pick Commit?](https://www.junosnotes.com/git/how-to-cherry-pick-git-commits/)  
+
 Links for various different GIT commands:  
 [Usando Git Direito | Limpando seus Commits!](https://youtu.be/6OokP-NE49k)  
 
@@ -177,4 +180,35 @@ git pull --rebase origin main
 
 Unset password:
 git config --global --unset user.password
+
+##################################################
+
+Get a list of Git branches, ordered by most recent commit:
+git for-each-ref --sort=-committerdate refs/heads/
+OR
+git for-each-ref --sort=-committerdate refs/remotes/
+OR
+git for-each-ref --sort=-committerdate
+
+##################################################
+
+Solve problem 'Filename too long'
+git clone -c core.longpaths=true https://repo.url
+
+##################################################
+
+List all authors that worked on a file (in this case the Dockerfile)
+git log --follow -- Dockerfile | grep Author
+
+##################################################
+
+See the graphical tree in terminal:
+git log --graph --oneline
+or
+gitk
+
+##################################################
+
+Change commit message when cherry-picking
+git cherry-pick -e <hash>
 ```
