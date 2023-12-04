@@ -36,7 +36,7 @@ Links regarding rebase and squash:
 [git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)  
 [Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)  
 
-Links regargind cherry-pick
+Links regargind cherry-pick:  
 [How To Cherry Pick Git Commits | When & How to use a Git Cherry Pick Commit?](https://www.junosnotes.com/git/how-to-cherry-pick-git-commits/)  
 
 Links for various different GIT commands:  
