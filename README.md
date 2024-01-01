@@ -93,6 +93,13 @@ git push -f origin main
 
 ##################################################
 
+Change commit message for a specific commit:
+git rebase -i HEAD~2
+Run the command above, but make sure to replace the number 2 for the appropriate number to list all past commits including the one you want to change.
+You should type 'reword' in front the commit you want to change its message and exit/save. The editor will open so you can change the commit message.
+
+##################################################
+
 Unstage a file:
 git reset -- <file>
 OR
