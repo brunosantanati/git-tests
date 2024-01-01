@@ -118,6 +118,7 @@ git add -p
 After run the command, if we've changed multiple lines of a file we'll be asked:
 (1/1) Stage this hunk [y,n,q,a,d,s,e,?]?
 We can respond s to split the staging of the changes and choose them separately afterwards.
+Type y to stage the change or n to not stage it.
 
 ##################################################
 
@@ -132,7 +133,7 @@ Select the option '4: add untracked'
 Type the numbers of the files you want to add to stage
 When finished press enter
 Select the option '3: revert'
-Type the nunbers of the files you want to remove from stage
+Type the numbers of the files you want to remove from stage
 When finished press enter
 Type 7 or q to exit (option '7: quit')
 
