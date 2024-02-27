@@ -220,3 +220,55 @@ gitk
 Change commit message when cherry-picking
 git cherry-pick -e <hash>
 ```
+
+## How to move a full Git repository  
+
+[How to move a full Git repository](https://www.atlassian.com/git/tutorials/git-move-repository)  
+
+Let’s call the original repository ORI and the new one NEW, here are the steps required to copy everything from ORI to NEW:  
+
+1. Create a local repository in the temp-dir directory using:  
+
+<code>git clone <url to ORI repo> temp-dir</code>  
+
+2. Go into the temp-dir directory.  
+
+3. To see a list of the different branches in ORI do:  
+
+<code>git branch -a</code>  
+
+4. Checkout all the branches that you want to copy from ORI to NEW using:  
+
+<code>git checkout branch-name</code>  
+
+5. Now fetch all the tags from ORI using:  
+
+<code>git fetch --tags</code>  
+
+6. Before doing the next step make sure to check your local tags and branches using the following commands:  
+
+<code>git tag</code>  
+<code>git branch -a</code>  
+
+7. Now clear the link to the ORI repository with the following command:  
+
+<code>git remote rm origin</code>  
+
+8. Now link your local repository to your newly created NEW repository using the following command:  
+
+<code>git remote add origin <url to NEW repo></code>  
+
+9. Now push all your branches and tags with these commands:  
+
+<code>git push origin --all</code>  
+<code>git push --tags</code>  
+
+10. You now have a full copy from your ORI repo.  
+
+Extra  
+
+If you want to simply copy the entire repository you can use  
+
+<code>git clone --mirror <url to ORI repo> temp-dir</code>  
+
+to replace step 1 to 5.  
