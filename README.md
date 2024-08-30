@@ -7,6 +7,7 @@ Repo to test some GIT features.
 GH Links:  
 [Take GitHub to the command line](https://cli.github.com/)  
 [Installing gh on Linux and BSD](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)  
+[Recovering Deleted Files in GitHub](https://rewind.com/blog/recovering-deleted-files-in-github/)  
 
 GIT Workflows  
 [Comparing Git Workflows: What You Should Know](https://www.atlassian.com/git/tutorials/comparing-workflows)  
@@ -219,6 +220,16 @@ gitk
 
 Change commit message when cherry-picking
 git cherry-pick -e <hash>
+
+##################################################
+
+Recover deleted file:
+
+recover the file in the commit f25b431de (when you have the commit SHA that has the exact file version you want)
+git checkout f25b431de path/to/the/file/fileName.txt
+
+recover the file in the commit before f25b431de (when you have the commit SHA that deleted the file)
+git checkout f25b431de^ path/to/the/file/fileName.txt
 ```
 
 ## How to move a full Git repository  
