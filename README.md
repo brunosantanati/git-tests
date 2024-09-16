@@ -230,6 +230,12 @@ git checkout f25b431de path/to/the/file/fileName.txt
 
 recover the file in the commit before f25b431de (when you have the commit SHA that deleted the file)
 git checkout f25b431de^ path/to/the/file/fileName.txt
+
+##################################################
+
+Check stash entry content:
+
+git stash show -p stash@{0}
 ```
 
 ## How to move a full Git repository  
