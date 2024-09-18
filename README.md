@@ -236,6 +236,14 @@ git checkout f25b431de^ path/to/the/file/fileName.txt
 Check stash entry content:
 
 git stash show -p stash@{0}
+
+##################################################
+
+Filter commits by author:
+
+git log --author="username"
+OR
+git log --author="SomeName.*" --perl-regexp
 ```
 
 ## How to move a full Git repository  
