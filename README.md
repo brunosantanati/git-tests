@@ -244,6 +244,14 @@ Filter commits by author:
 git log --author="username"
 OR
 git log --author="SomeName.*" --perl-regexp
+
+##################################################
+
+See overritten commits by rebase:
+
+git reflog show <nome-do-branch>
+View details of a specific commit:
+git show <commit-hash>
 ```
 
 ## How to move a full Git repository  
