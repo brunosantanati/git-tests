@@ -252,6 +252,30 @@ See overritten commits by rebase:
 git reflog show <nome-do-branch>
 View details of a specific commit:
 git show <commit-hash>
+
+##################################################
+
+Check all commits that changed a specific file:
+
+1. List commits by file:
+git log -- <filename>
+
+This command will list all commits that have modified the specified file.
+
+2. Include reflog:
+git reflog -- <filename>
+
+This command will list all reflog entries that have modified the specified file. Reflog entries can include commits that have been deleted or reverted.
+
+3. Combine both:
+git log -- <filename> --follow
+
+This command will list all commits that have modified the specified file, including commits that have been renamed or moved. It will also follow the file's history through renames and moves.
+
+4. Search for specific changes:
+git log --grep="your search term" -- <filename>
+
+This command will list all commits that have modified the specified file and contain the specified search term in the commit message.
 ```
 
 ## How to move a full Git repository  
