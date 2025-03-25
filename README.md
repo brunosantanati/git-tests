@@ -204,6 +204,23 @@ git for-each-ref --sort=-committerdate
 
 ##################################################
 
+List all branches created by a specific user/person:
+
+git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate | grep Bruno
+
+List all branches created by a specific user/person in remote origin:
+
+git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate | grep Bruno | grep remote
+OR
+git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate refs/remotes/origin/ | grep Bruno
+
+If you are seeing branches that has been deleted in remote, use one of these commands to update the list:
+git remote prune origin
+OR
+git fetch origin --prune
+
+##################################################
+
 Solve problem 'Filename too long'
 git clone -c core.longpaths=true https://repo.url
 
