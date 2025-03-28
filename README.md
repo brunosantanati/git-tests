@@ -97,6 +97,22 @@ git push -f origin main
 
 ##################################################
 
+Modify changes made in one specific commit
+OR
+Move changes from one commit to another:
+
+https://stackoverflow.com/questions/15213814/how-should-i-move-changes-from-one-commit-to-another
+
+1 - git rebase -i HEAD~2
+2 - Put the 'edit' word in front of the commit you want to change:
+edit 97e9d62 Commit C, editing file2.txt
+3 - Edit the file you want to.
+4 - git add .
+5 - git commit --amend
+6 - git rebase --continue
+
+##################################################
+
 Change commit message for a specific commit:
 git rebase -i HEAD~2
 Run the command above, but make sure to replace the number 2 for the appropriate number to list all past commits including the one you want to change.
