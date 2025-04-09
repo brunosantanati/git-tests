@@ -29,6 +29,7 @@ GIT Rebase:
 [git merge vs git rebase: Avoiding Rebase Hell](https://jarrodspillers.com/blog/git/2009-08-19-git-merge-vs-git-rebase-avoiding-rebase-hell/)  
 [Rebase Considered Harmful](https://changelog.complete.org/archives/586-rebase-considered-harmful)  
 [The Ultimate Guide to Git Merge and Git Rebase](https://www.google.com/amp/s/www.freecodecamp.org/news/the-ultimate-guide-to-git-merge-and-git-rebase/amp/)  
+[How to Use git rebase -i to Combine First Two Commits in a Git Repository](https://gunnariauvinen.com/posts/how-to-use-git-rebase-i-to-combine-first-two-commits-in-a-git-repository/)  
 
 Links regarding rebase and squash:  
 [How to squash and rebase in git](https://youtu.be/AWayLpQHJeE)  
@@ -94,6 +95,9 @@ Squash commits:
 git rebase -i HEAD~2
 The command above will show the last 2 commits, so supposing you want to join them into only one commit, you can mark the second one with the flag squash in front of it, exit and save. If these 2 commits that became 1 were already in GitHub, you need to use the -f flag (force) to overwrite the remote repo history as below (don't do this if any other person has pulled the code before).
 git push -f origin main
+
+Squash the two only commits you have:
+git rebase -i --root
 
 ##################################################
 
