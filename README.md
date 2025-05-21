@@ -334,6 +334,12 @@ Now you have all the information to simply do git cherry-pick.
 When done, you may want to remove the remote again, if you don't need it any more, with
 
 git remote remove other
+
+##################################################
+
+Restore file to a version from a specific commit
+
+git checkout <SHA1> -- file-path
 ```
 
 ## How to move a full Git repository  
