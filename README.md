@@ -340,6 +340,12 @@ git remote remove other
 Restore file to a version from a specific commit
 
 git checkout <SHA1> -- file-path
+
+##################################################
+
+Revert merge commit
+
+git revert -m 1 <SHA1>
 ```
 
 ## How to move a full Git repository  
