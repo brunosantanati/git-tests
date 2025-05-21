@@ -346,6 +346,12 @@ git checkout <SHA1> -- file-path
 Revert merge commit
 
 git revert -m 1 <SHA1>
+
+##################################################
+
+search commits that relates to a specific string (check all commits where the number of occurrences change)
+
+git log -p -S "PRESELECTED_FUNDING_OPTION" --all -n 6
 ```
 
 ## How to move a full Git repository  
