@@ -316,6 +316,24 @@ This command will list all commits that have modified the specified file, includ
 git log --grep="your search term" -- <filename>
 
 This command will list all commits that have modified the specified file and contain the specified search term in the commit message.
+
+##################################################
+
+Cherry-pick from another repository
+
+You'll need to add the other repository as a remote, then fetch its changes. From there you see the commit and you can cherry-pick it.
+
+Like that:
+
+git remote add other https://example.link/repository.git
+
+git fetch other
+
+Now you have all the information to simply do git cherry-pick.
+
+When done, you may want to remove the remote again, if you don't need it any more, with
+
+git remote remove other
 ```
 
 ## How to move a full Git repository  
