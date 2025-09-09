@@ -112,6 +112,8 @@ WARNING: in case you already have modified files, stash your changes before proc
 1 - git rebase -i HEAD~2
 2 - Put the 'edit' word in front of the commit you want to change:
 edit 97e9d62 Commit C, editing file2.txt
+2.1 - (Optional) If you stashed some changes, you should run:
+git stash pop
 3 - Edit the file you want to.
 4 - git add .
 5 - git commit --amend
