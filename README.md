@@ -107,6 +107,8 @@ Move changes from one commit to another:
 
 https://stackoverflow.com/questions/15213814/how-should-i-move-changes-from-one-commit-to-another
 
+WARNING: in case you already have modified files, stash your changes before proceeding with the instructions bellow.
+
 1 - git rebase -i HEAD~2
 2 - Put the 'edit' word in front of the commit you want to change:
 edit 97e9d62 Commit C, editing file2.txt
@@ -405,3 +407,9 @@ If you want to simply copy the entire repository you can use
 <code>git clone --mirror <url to ORI repo> temp-dir</code>  
 
 to replace step 1 to 5.  
+
+##################################################
+
+Check the current branch you are in
+
+git br --show-current
